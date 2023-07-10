@@ -33,10 +33,9 @@ if(podeComprar && destinoExiste){
     console.log("Desculpe, tivemos um erro!")
 }
 
-for(let cont = 0;contador < 3; cont ++){
-    if(listaDeDestinos[contador] == destino){
+for(let i = 0; i < 3; i ++){
+    if(listaDeDestinos[i] == destino){
         destinoExiste = true;
-        break;
     }
 }
 
